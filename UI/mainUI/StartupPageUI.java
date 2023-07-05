@@ -42,7 +42,7 @@ public class StartupPageUI {
     	createUI();
     }
 
-    private static void createUI() {
+	private static void createUI() {
         frame = new JFrame("Password System");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 150);

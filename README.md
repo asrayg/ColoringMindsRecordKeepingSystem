@@ -5,7 +5,7 @@
 **Version**: 1.00  
 
 ## Description
-The Coloring Minds Record Keeping System is a Java-based application designed to manage the operations of an after school art class. This system helps in keeping track of records, attendance, fees, and payments for the art class called Coloring Minds. It provides features such as generating emails to students, managing balances, and providing a user-friendly interface for easy interaction. The system utilizes Java Swing for the UI, Maven for the mail system, and various data structures for efficient record management. My mother runs Coloring Minds, an after school art class, and uses this system extensively. We are looking at adding extra features into the system in the future: recording attendance from an in-class picture using facial recognition, auto-adding payment information into the system directly using Indian based UPI servers, adding a WhatsApp messenger update feature, and more.
+The Coloring Minds Record Keeping System is a Java-based application designed to manage the operations of an after school art class. This system helps in keeping track of records, attendance, fees, and payments for Coloring Minds. It provides features such as generating emails to students, managing balances, and providing a user-friendly interface for easy interaction. The system utilizes Java Swing for the UI, Maven for the mail system, and various data structures for efficient record management. My mother runs Coloring Minds and uses this system extensively. We are looking at adding extra features into the system in the future: recording attendance from an in-class picture using facial recognition, auto-adding payment information into the system directly using Indian based UPI servers, adding a WhatsApp messenger update feature, and more.
 
 ## Files
 - `records.txt`: Stores the record details of the art class participants.
@@ -76,38 +76,38 @@ The following folders and files are present in the `/ColoringMindsRecordKeepingS
 ## Console Package Structure
 The following folders and files are present in the `/ColoringMindsRecordKeepingSystem/Console` directory:
 
-##- `attendance`:
+## - `attendance`:
   - `AttendanceMain.java`: The main class for managing attendance via the console.
   - `AttendanceRecords.java`: Provides functions for managing attendance records.
   - `DeleteAttendance.java`: Allows deletion of attendance records.
   - `ViewAttendance.java`: Enables viewing of attendance records.
 
-##- `email`:
+## - `email`:
   - `EmailMain.java`: The main class for managing email functionalities via the console.
   - `GenerateBalanceEmail.java`: Generates emails to students regarding their balances.
   - `GenerateEmail.java`: Provides options to generate emails.
   - `GenerateSpecificDateEmail.java`: Allows generating emails for a specific date.
   - `GenerateSpecificEmail.java`: Generates emails to specific students.
 
-##- `fees`:
+## - `fees`:
   - `DeleteFees.java`: Enables deletion of fee-related information via the console.
   - `FeesMain.java`: The main class for managing fees via the console.
   - `GenerateFees.java`: Generates fees-related information via the console.
   - `ViewFees.java`: Allows viewing of fees information via the console.
   - `ViewStudentsThatHaveABalance.java`: Displays students who have a balance via the console.
 
-##- `main`:
+## - `main`:
   - `CommandMain.java`: The main class for interacting with the system via the console.
   - `ResetPassword.java`: Provides functionality for resetting the password via the console.
   - `StartupPage.java`: The initial page of the console interface with login functionality.
 
-##- `payment`:
+## - `payment`:
   - `DeletePayment.java`: Enables deletion of payment details via the console.
   - `NewPayment.java`: Allows adding new payment information via the console.
   - `PaymentMain.java`: The main class for managing payments via the console.
   - `ViewPayment.java`: Displays payment details via the console.
 
-##- `records`:
+## - `records`:
   - `DeleteRecords.java`: Enables deletion of record entries via the console.
   - `EditRecords.java`: Provides options for editing record details via the console.
   - `ReadRecords.java`: Displays the records of the art class participants via the console.
