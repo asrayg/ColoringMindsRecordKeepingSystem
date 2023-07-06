@@ -12,6 +12,7 @@ The Coloring Minds Record Keeping System is a Java-based application designed to
 - `fees.txt`: Manages the fee-related information, including balances.
 - `attendance.txt`: Maintains the attendance records of the students.
 - `payment.txt`: Tracks the payment details of the students.
+- `password.txt`: Checks if the password is right
 
 ## Usage
 To start the system, you have two options:
