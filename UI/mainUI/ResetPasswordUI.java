@@ -112,6 +112,10 @@ public class ResetPasswordUI extends JFrame {
             JOptionPane.showMessageDialog(this, "Incorrect current password.", "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
+        if(password.equals("")) {
+            JOptionPane.showMessageDialog(this, "Please enter your current password.", "Error", JOptionPane.ERROR_MESSAGE);
+
+        }
 
         char[] newPasswordChars = newPasswordField.getPassword();
         String newPassword = new String(newPasswordChars);
@@ -137,9 +141,10 @@ public class ResetPasswordUI extends JFrame {
         if (confirmation == JOptionPane.YES_OPTION) {
             replaceFirstLine("password.txt", newPassword);
             JOptionPane.showMessageDialog(this, "Password reset successful.", "Success", JOptionPane.INFORMATION_MESSAGE);
+            StartupPageUI.main(null);
+            dispose();
         }
-        StartupPageUI.main(null);
-        dispose();
+        
     }
     
     private static void checkLockStatusOfSystem(String passwordFile) {

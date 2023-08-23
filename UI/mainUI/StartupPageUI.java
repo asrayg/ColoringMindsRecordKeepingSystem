@@ -283,7 +283,7 @@ public class StartupPageUI {
         int counter = getNumber();
 
         if (counter >= 5) {
-            String message = "Too many incorrect attempts. System has been locked. Call customer support to reopen.";
+            String message = "Too many incorrect attempts. CMRKS has been locked. Call customer support to open CMRKS again.";
             JLabel messageLabel = new JLabel(message);
             JOptionPane.showMessageDialog(frame, messageLabel, "System Locked", JOptionPane.ERROR_MESSAGE);
             lockFile();

@@ -67,7 +67,6 @@ public class ViewStudentsThatHaveABalanceUI extends JFrame {
         try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
             String line;
             sb.append("\n");
-
             sb.append(String.format("%-20s%-20s%-20s\n", "Student Name", "Ph. No.", "Total Balance"));
             sb.append("\n");
 
