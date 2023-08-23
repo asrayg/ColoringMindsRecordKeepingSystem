@@ -36,7 +36,7 @@ public class StartupPageUI {
     private static JPanel cardPanel;
     private static JButton registerButton;
     private static JButton loginButton;
-
+    //cool! easter egg
     public static void main(String[] args) {
     	checkLockStatusOfSystem("password.txt");
     	createUI();
